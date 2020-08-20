@@ -18,7 +18,7 @@ function App() {
       <NavbarBig />
       <div className='app'>
         <SideProfile />
-        <Media query='(min-width: 700px)'>
+        <Media query='(min-width: 750px)'>
           {(screenIsSmall) =>
             screenIsSmall ? (
               // small screen has no redirect

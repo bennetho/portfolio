@@ -24,69 +24,71 @@ const Form = () => {
         className='section-center appointment-form'
         noValidate
       >
-        <div className='singleItem'>
-          <label>Name</label>
-          <div>
-            <input
-              className={`${errors.name && 'inputError'} form-control`}
-              name='name'
-              type='name'
-              placeholder='Name...'
-              value={values.name}
-              onChange={handleChange}
-            />
-            {errors.name && <aside className='error'>{errors.name}</aside>}
+        <div className='align'>
+          <div className='singleItem'>
+            <label>Name</label>
+            <div>
+              <input
+                className={`${errors.name && 'inputError'} form-control`}
+                name='name'
+                type='name'
+                placeholder='Name...'
+                value={values.name}
+                onChange={handleChange}
+              />
+              {errors.name && <aside className='error'>{errors.name}</aside>}
+            </div>
           </div>
-        </div>
-        <div className='singleItem'>
-          <label>Email</label>
-          <div>
-            <input
-              className={`${errors.email && 'inputError'} form-control`}
-              name='email'
-              type='email'
-              placeholder='Email...'
-              value={values.email}
-              onChange={handleChange}
-            />
-            {errors.email && <aside className='error'>{errors.email}</aside>}
+          <div className='singleItem'>
+            <label>Email</label>
+            <div>
+              <input
+                className={`${errors.email && 'inputError'} form-control`}
+                name='email'
+                type='email'
+                placeholder='Email...'
+                value={values.email}
+                onChange={handleChange}
+              />
+              {errors.email && <aside className='error'>{errors.email}</aside>}
+            </div>
           </div>
-        </div>
-        <div className='singleItem'>
-          <label>Telephone</label>
-          <div>
-            <input
-              name='phone'
-              type='number'
-              placeholder='(Optional...)'
-              className='form-control'
-              value={values.phone}
-              onChange={handleChange}
-            />
+          <div className='singleItem'>
+            <label>Telephone</label>
+            <div>
+              <input
+                name='phone'
+                type='number'
+                placeholder='(Optional...)'
+                className='form-control'
+                value={values.phone}
+                onChange={handleChange}
+              />
+            </div>
           </div>
-        </div>
-        <div className='singleItem'>
-          <label>Message</label>
-          <div>
-            <textarea
-              className={`${
-                errors.email && 'inputError'
-              } form-control input-textarea`}
-              name='message'
-              type='text'
-              placeholder='Your Message...'
-              value={values.message}
-              onChange={handleChange}
-            />
-            {errors.message && (
-              <aside className='error'>{errors.message}</aside>
-            )}
+          <div className='singleItem'>
+            <label>Message</label>
+            <div>
+              <textarea
+                className={`${
+                  errors.email && 'inputError'
+                } form-control input-textarea`}
+                name='message'
+                type='text'
+                placeholder='Your Message...'
+                value={values.message}
+                onChange={handleChange}
+              />
+              {errors.message && (
+                <aside className='error'>{errors.message}</aside>
+              )}
+            </div>
           </div>
-        </div>
-        <div className='success'></div>
-        <div className='failed'></div>
-        <div className='btn form-btn'>
-          <button type='submit'>Submit</button>
+          <div className='success'></div>
+          <div className='failed'></div>
+          <div className='btn form-btn'>
+            <button type='submit'>Submit</button>
+          </div>
         </div>
       </form>
     </section>
