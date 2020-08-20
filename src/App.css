@@ -26,7 +26,8 @@
   }
   body {
     background: rgb(240, 233, 225);
-    overflow: auto;
+    overflow-inline: auto;
+    overflow-block: inherit;
   }
 }
 @media screen and (min-width: 750px) {

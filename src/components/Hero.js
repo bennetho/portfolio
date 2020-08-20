@@ -18,8 +18,8 @@ function Hero() {
           {/* <h1>Hey</h1> */}
 
           <Typist
-            avgTypingDelay={150}
-            startDelay={700}
+            avgTypingDelay={170}
+            startDelay={1000}
             cursor={{ element: '' }}
           >
             <h1>Hey,</h1>
