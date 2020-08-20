@@ -1,4 +1,4 @@
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 750px) {
   .app {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -17,7 +17,7 @@
 .home {
 }
 
-@media only screen and (min-width: 200px) and (max-width: 699px) {
+@media only screen and (min-width: 200px) and (max-width: 749px) {
   .customize-screen {
     display: none;
   }
@@ -28,7 +28,7 @@
     background: rgb(240, 233, 225);
   }
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 750px) {
   .customize {
     display: none;
   }
@@ -150,7 +150,7 @@ p {
   margin-bottom: 1.25rem;
   color: var(--clr-grey-5);
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 750px) {
   h1 {
     font-size: 2rem;
   }
@@ -208,7 +208,7 @@ p {
 
 /* ----------------------------------------------------------------------- */
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 750px) {
   .section {
     padding: 0 0;
     min-height: 0;
@@ -270,7 +270,7 @@ Navbar
 ===============
 */
 
-@media only screen and (min-width: 200px) and (max-width: 699px) {
+@media only screen and (min-width: 200px) and (max-width: 749px) {
   .nav {
     background: rgb(182, 194, 190);
     -webkit-box-shadow: var(--dark-shadow);
@@ -330,7 +330,7 @@ Navbar
   -ms-grid-column-align: end;
   justify-self: end;
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 750px) {
   .nav {
     height: 4rem;
     padding: 0 1rem;
@@ -487,7 +487,7 @@ Hero
     padding-left: 0.3rem;
   }
 }
-@media only screen and (min-width: 450px) and (max-width: 699px) {
+@media only screen and (min-width: 450px) and (max-width: 749px) {
   .hero-info h1 {
     line-height: 3rem;
   }
@@ -503,7 +503,15 @@ Hero
   margin-top: 1.25rem;
   color: white;
 }
-@media screen and (min-width: 700px) {
+@media only screen and (min-width: 750px) and (max-width: 750px) {
+  .hero-btn {
+    width: 120px;
+    letter-spacing: 0;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 750px) {
   .hero-img {
     display: block;
     position: relative;
@@ -542,7 +550,7 @@ Hero
 }
 
 /* -----------bc of ticker i added pad-btm and overright min height----- */
-@media only screen and (min-width: 200px) and (max-width: 699px) {
+@media only screen and (min-width: 200px) and (max-width: 749px) {
   .hero-center {
     min-height: calc(95vh - 3.2rem);
     display: -webkit-box;
@@ -567,7 +575,7 @@ Hero
     background: rgb(240, 233, 225);
   }
 }
-@media only screen and (min-width: 700px) and (max-width: 800px) {
+@media only screen and (min-width: 750px) and (max-width: 800px) {
   .hero-center {
     -ms-grid-columns: 14.6rem 0.3rem 15.4rem;
     grid-template-columns: 14.6rem 15.4rem;
@@ -585,14 +593,14 @@ Hero
 /*
 ===============----------- */
 /* -------------about--------- */
-@media only screen and (min-width: 200px) and (max-width: 699px) {
+@media only screen and (min-width: 200px) and (max-width: 749px) {
   .about {
     background: rgb(250, 249, 249);
   }
 }
 .about-title {
   text-align: center;
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
 }
 
 .about p {
@@ -629,7 +637,7 @@ Hero
   -ms-flex-align: center;
   align-items: center;
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 750px) {
   .about-img {
     display: none;
   }
@@ -659,7 +667,7 @@ Services
 */
 /* bg-grey in globals */
 
-@media only screen and (min-width: 200px) and (max-width: 699px) {
+@media only screen and (min-width: 200px) and (max-width: 749px) {
 }
 .service {
   padding: 2rem 1.5rem;
@@ -710,7 +718,7 @@ Services
     column-gap: 2rem;
   }
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 750px) {
   .service-center {
     overflow-y: auto;
   }
@@ -742,7 +750,7 @@ Projects
 
 /* ------------------------------------------- */
 
-@media only screen and (min-width: 200px) and (max-width: 699px) {
+@media only screen and (min-width: 200px) and (max-width: 749px) {
   .projects {
     background: rgb(250, 249, 249);
   }
@@ -864,7 +872,7 @@ Projects
   -ms-transform: scale(0.8);
   transform: scale(0.8);
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 750px) {
   .project-title,
   .contact-title {
     display: none;
@@ -944,7 +952,7 @@ Projects
 Skills
 ===============
 */
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 750px) {
   .skills-center {
     padding: 2rem 5rem;
     line-height: 2rem;
@@ -1059,7 +1067,7 @@ Single Page
   color: rgb(86, 98, 117);
 }
 
-/* @media only screen and (min-width: 200px) and (max-width: 699px) {
+/* @media only screen and (min-width: 200px) and (max-width: 749px) {
   .ticker {
     display: none;
   }
@@ -1098,7 +1106,7 @@ Single Page
   padding-left: 2px !important;
   padding-right: 2px !important;
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 750px) {
   .ticker {
     background: #cfc3cd;
   }
@@ -1114,4 +1122,55 @@ Single Page
 code {
   margin-right: 3rem;
   padding-right: 3rem;
+}
+
+/* ---------------main control--------------------- */
+
+@media only screen and (min-width: 661px) and (max-width: 749px) {
+  .appointment-form {
+    max-width: 570px;
+  }
+  .app {
+    max-width: 690px;
+  }
+}
+@media only screen and (min-width: 540px) and (max-width: 660px) {
+  .appointment-form {
+    max-width: 570px;
+  }
+  .app {
+    max-width: 690px;
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 550px) {
+  .appointment-form {
+    max-width: 470px;
+  }
+  .app {
+    max-width: 480px;
+  }
+}
+@media only screen and (min-width: 400px) and (max-width: 499px) {
+  .appointment-form {
+    max-width: 370px;
+  }
+  .app {
+    max-width: 450px;
+  }
+}
+@media only screen and (min-width: 341px) and (max-width: 399px) {
+  .appointment-form {
+    max-width: 370px;
+  }
+  .app {
+    max-width: 370px;
+  }
+}
+@media only screen and (min-width: 200px) and (max-width: 340px) {
+  .appointment-form {
+    max-width: 300px;
+  }
+  .app {
+    max-width: 316px;
+  }
 }

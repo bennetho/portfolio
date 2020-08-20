@@ -15,16 +15,20 @@ const Form = () => {
 
   return (
     <section className='container contact section ' id='contact'>
-      <div className='section-title contact-title'>
+      <div className='section-title contact-title '>
         <h2>contact</h2>
         <div className='underline'></div>
       </div>
-      <form onSubmit={handleSubmit} className='section-center' noValidate>
+      <form
+        onSubmit={handleSubmit}
+        className='section-center appointment-form'
+        noValidate
+      >
         <div className='singleItem'>
           <label>Name</label>
           <div>
             <input
-              className={`${errors.name && 'inputError'}`}
+              className={`${errors.name && 'inputError'} form-control`}
               name='name'
               type='name'
               placeholder='Name...'
@@ -38,7 +42,7 @@ const Form = () => {
           <label>Email</label>
           <div>
             <input
-              className={`${errors.email && 'inputError'}`}
+              className={`${errors.email && 'inputError'} form-control`}
               name='email'
               type='email'
               placeholder='Email...'
@@ -55,6 +59,7 @@ const Form = () => {
               name='phone'
               type='number'
               placeholder='(Optional...)'
+              className='form-control'
               value={values.phone}
               onChange={handleChange}
             />
@@ -64,11 +69,11 @@ const Form = () => {
           <label>Message</label>
           <div>
             <textarea
-              className={`${errors.email && 'inputError'}`}
+              className={`${
+                errors.email && 'inputError'
+              } form-control input-textarea`}
               name='message'
               type='text'
-              cols='30'
-              rows='5'
               placeholder='Your Message...'
               value={values.message}
               onChange={handleChange}
