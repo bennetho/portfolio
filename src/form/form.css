@@ -25,7 +25,7 @@
 }
 
 .container form {
-  overflow-y: auto;
+  overflow: auto;
 }
 
 input[type='number']::-webkit-inner-spin-button,
@@ -66,23 +66,7 @@ button {
   letter-spacing: 0.1rem;
   font-weight: 700;
 }
-/* .btn button:hover {
-  border: 1px solid #fefefe;
-  background-color: rgb(199, 202, 199);
-  cursor: pointer;
-} */
 
-/* @media screen and (min-width: 664px) {
-  .container {
-    width: 60%;
-    margin: 100px auto;
-    box-shadow: 1px 1px 4px 1px lightgrey;
-    background-color: lightseagreen;
-  }
-}
-
-} 
-*/
 .contact {
   background: rgb(250, 249, 249);
 }
@@ -129,6 +113,19 @@ textarea {
   background: rgb(240, 233, 225);
   box-sizing: border-box;
 }
+input,
+textarea ::before {
+  content: ' ';
+  padding: 0;
+  margin: 0;
+}
+
+input,
+textarea ::after {
+  content: ' ';
+  padding: 0;
+  margin: 0;
+}
 
 button {
   border: none;
@@ -166,12 +163,15 @@ form {
   box-sizing: border-box;
   overflow: auto;
   box-sizing: border-box;
-  object-fit: contain;
+}
+
+@media only screen and (min-width: 451px) and (max-width: 750px) {
 }
 
 @media only screen and (min-width: 200px) and (max-width: 450px) {
   .form-control {
     max-width: 320px !important;
+    margin: auto;
   }
 }
 

@@ -1139,7 +1139,8 @@ code {
 }
 @media only screen and (min-width: 540px) and (max-width: 660px) {
   .appointment-form {
-    max-width: 570px;
+    max-width: 500px;
+    margin: auto;
   }
   .app {
     max-width: 690px;
@@ -1149,16 +1150,21 @@ code {
 }
 @media only screen and (min-width: 500px) and (max-width: 550px) {
   .appointment-form {
-    max-width: 400px;
+    max-width: 350px;
+    margin: auto;
   }
   .app {
     max-width: 550px;
+    margin: auto;
   }
 }
 @media only screen and (min-width: 400px) and (max-width: 469px) {
   .appointment-form {
     max-width: 300px;
     margin: auto;
+    /* display: flex; */
+    flex-direction: column;
+    place-items: center;
   }
   .app {
     max-width: 469px;
@@ -1168,7 +1174,7 @@ code {
 }
 @media only screen and (min-width: 341px) and (max-width: 399px) {
   .appointment-form {
-    max-width: 290px;
+    max-width: 270px;
     margin: auto;
   }
   .app {
@@ -1178,7 +1184,8 @@ code {
 }
 @media only screen and (min-width: 200px) and (max-width: 340px) {
   .appointment-form {
-    max-width: 290px;
+    max-width: 270px;
+    margin: auto;
   }
   .app {
     max-width: 340px;
