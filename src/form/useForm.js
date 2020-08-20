@@ -31,7 +31,7 @@ const useForm = (callback, validate) => {
 
   const sendFeedback = (templateId, variables) => {
     window.emailjs
-      .send('gmaill', templateId, variables)
+      .send('gmail', templateId, variables)
       .then((res) => {
         // document.querySelector('.success').innerHTML =
         //   'message sent thank you.';
