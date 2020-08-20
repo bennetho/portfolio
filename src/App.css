@@ -1146,37 +1146,40 @@ code {
 }
 @media only screen and (min-width: 500px) and (max-width: 550px) {
   .appointment-form {
-    max-width: 450px;
+    max-width: 400px;
   }
   .app {
-    max-width: 480px !important;
+    max-width: 550px;
   }
 }
-@media only screen and (min-width: 400px) and (max-width: 450px) {
+@media only screen and (min-width: 400px) and (max-width: 469px) {
   .appointment-form {
-    max-width: 350px !important;
+    max-width: 300px;
+    margin: auto;
   }
   .app {
-    max-width: 450px;
-  }
-  .appointment-container {
-    max-width: 395px;
+    max-width: 469px;
+    margin: auto;
+    min-width: 400px;
   }
 }
 @media only screen and (min-width: 341px) and (max-width: 399px) {
   .appointment-form {
-    max-width: 320px !important;
+    max-width: 290px;
+    margin: auto;
   }
   .app {
-    max-width: 375px !important;
+    max-width: 395px;
     margin: auto;
   }
 }
 @media only screen and (min-width: 200px) and (max-width: 340px) {
   .appointment-form {
-    max-width: 290px !important;
+    max-width: 290px;
   }
   .app {
-    max-width: 320px !important;
+    max-width: 340px;
+    margin: auto;
+    min-width: 323px;
   }
 }
