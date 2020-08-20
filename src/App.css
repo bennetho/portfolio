@@ -26,6 +26,7 @@
   }
   body {
     background: rgb(240, 233, 225);
+    overflow: auto;
   }
 }
 @media screen and (min-width: 750px) {
@@ -1142,6 +1143,7 @@ code {
   .app {
     max-width: 690px;
     margin: auto;
+    overflow: auto;
   }
 }
 @media only screen and (min-width: 500px) and (max-width: 550px) {
