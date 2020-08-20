@@ -1102,6 +1102,7 @@ Single Page
   white-space: nowrap;
   color: white;
   display: inline;
+  /* padding-right: 4rem; */
 }
 .px-05 {
   padding-left: 2px !important;
@@ -1126,7 +1127,7 @@ code {
 }
 
 /* ---------------main control--------------------- */
-/* 
+
 @media only screen and (min-width: 661px) and (max-width: 749px) {
   .appointment-form {
     max-width: 570px;
@@ -1190,4 +1191,4 @@ code {
     margin: auto;
     min-width: 323px;
   }
-} */
+}
