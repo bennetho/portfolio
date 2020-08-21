@@ -25,7 +25,7 @@ const MoveAround = () => (
       <ContactsIcon />
     </span>
 
-    <Ticker>
+    <Ticker offset={550}>
       {({ index }) => (
         <span className='ticker_content'>
           Are you looking for a developer? yes you are on the right place

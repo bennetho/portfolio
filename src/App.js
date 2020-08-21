@@ -29,6 +29,7 @@ function App() {
                 <Route exact path='/service/' component={Service} />
                 <Route exact path='/about/' component={About} />
                 <Route exact path='/skill/' component={Skill} />
+                <Redirect to='/' />
               </Switch>
             ) : (
               // large screen does!
