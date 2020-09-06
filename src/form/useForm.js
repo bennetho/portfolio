@@ -78,7 +78,7 @@ const useForm = (callback, validate) => {
     formMess.style.background = 'red';
     setTimeout(() => {
       formMess.style.display = 'none';
-    }, 10000);
+    }, 6000);
   };
 
   // ----------------------useEffect-----------------

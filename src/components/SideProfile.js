@@ -24,16 +24,22 @@ function SideProfile() {
             <a
               href='https://m.facebook.com/login.php?next=https%3A%2F%2Fm.facebook.com%2Fbenneth.chiwendu%3Ftsid%3D0.497885996400915%26source%3Dresult&refsrc=https%3A%2F%2Fm.facebook.com%2Fbenneth.chiwendu&_rdr'
               className='social-icon'
+              target='_blank'
             >
               <FaFacebookSquare />
             </a>
             <a
               href='https://www.linkedin.com/public-profile/in/benneth-ossai-b3b63810a?challengeId=AQH4Na7E-59oGgAAAXP_dn9m1z_HVxwHTTxmHn1ru81QRKkdW0ruF0Imf9XVCgqB-pP6NQV88pqiIBYVIG4gygo6H3iBX6ef7Q&submissionId=06f065dc-cd3c-2c16-ea3a-440197d64a03'
               className='social-icon'
+              target='_blank'
             >
               <FaLinkedin />
             </a>
-            <a href='https://www.m.me/benneth.chiwendu' className='social-icon'>
+            <a
+              href='https://www.m.me/benneth.chiwendu'
+              className='social-icon'
+              target='_blank'
+            >
               <FaFacebookMessenger />
             </a>
           </h6>

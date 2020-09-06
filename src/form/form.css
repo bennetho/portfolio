@@ -1,23 +1,25 @@
 .error {
   color: red;
-  font-size: 1rempx;
+  font-size: 1rem;
 }
 
-.inputError {
-  border-color: red;
-  font-size: 1rem;
-}
 .failed {
-  /* background: red; */
   font-size: 1rem;
   text-align: center;
-  /* padding: 1rem; */
-  /* color: red; */
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .success {
   color: rgb(102, 187, 102);
   text-align: center;
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -25,7 +27,7 @@
 }
 
 .container form {
-  overflow: auto;
+  overflow: hidden;
   float: none;
 }
 
@@ -113,6 +115,7 @@ textarea {
   line-height: inherit;
   background: rgb(240, 233, 225);
   box-sizing: border-box;
+  overflow: hidden;
 }
 input,
 textarea ::before {
@@ -131,7 +134,7 @@ label,
 input,
 textarea:focus {
   border: none;
-  /* max-width: 320px; */
+  overflow: hidden;
   float: none;
   position: sticky;
 }

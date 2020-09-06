@@ -1,12 +1,13 @@
 import React from 'react';
-import ProjectsItem from '../components/ProjectsItem';
-import Navbar from '../components/Navbar';
+import Filter from '../components/Filter';
+import PageProject from '../components/PageProject';
 
 const Project = () => {
   return (
-    <div>
-      <ProjectsItem />
-    </div>
+    <section className='section projects'>
+      {/* <Filter /> */}
+      <PageProject />
+    </section>
   );
 };
 

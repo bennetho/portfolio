@@ -2,12 +2,13 @@ import React from 'react';
 import Hero from '../components/Hero';
 import About from './About';
 import Contact from './Contact';
+import Project from './Project';
 import Service from '../components/Service';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
-import ProjectsItem from '../components/ProjectsItem';
 import Skills from '../components/Skills';
 import BackBtn from '../components/BackBtn';
+import PageProject from '../components/PageProject';
 
 const Home = () => {
   return (
@@ -21,7 +22,8 @@ const Home = () => {
           <Hero />
           <About />
           <Service />
-          <ProjectsItem />
+          {/* <PageProject /> */}
+          <Project />
           <Skills />
           <Contact />
           <Footer />

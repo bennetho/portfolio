@@ -4,6 +4,8 @@ import onlinecloth from '../images/onlinecloth-3.jpg';
 import porfolio from '../images/portfolio-4.jpg';
 import school from '../images/school-5.jpg';
 import beach from '../images/beach-6.jpg';
+import alan from '../images/alan-7.jpg';
+import phone from '../images/phone-store-7.png';
 
 // for navbar
 
@@ -123,21 +125,45 @@ export const electricSkills = [
 // projects
 export default [
   {
+    id: 7,
+    category: 'react',
+    filtering: ['all', 'react'],
+    extlink: 'https://alan-voice-reader.netlify.app',
+    img: alan,
+    language: 'REACT JS',
+    title: 'news voice regonition',
+  },
+  {
+    id: 8,
+    category: 'react',
+    filtering: ['all', 'react'],
+    extlink: 'https://pphone.netlify.app',
+    img: phone,
+    language: 'REACT JS/STRAPI',
+    title: 'phone store',
+  },
+  {
     id: 1,
-    extlink: 'https://nbeauty.netlify.com/',
+    category: 'javascript',
+    filtering: ['all', 'javascript'],
+    extlink: 'https://nbeauty.netlify.com',
     img: beauty,
-    language: 'HTML,CSS & JS',
+    language: 'HTML/CSS/JS',
     title: 'beauty salon',
   },
   {
     id: 2,
+    category: 'javascript',
+    filtering: 'javascript',
     extlink: 'https://gym50.netlify.com',
     img: gym,
-    language: 'HTML/CSS',
+    language: 'HTML/CSS/JS',
     title: 'gym',
   },
   {
     id: 3,
+    category: 'javascript',
+    filtering: 'javascript',
     extlink: 'https://onlinecloth.netlify.com',
     img: onlinecloth,
     language: 'javascript',
@@ -145,6 +171,8 @@ export default [
   },
   {
     id: 4,
+    category: 'react',
+    filtering: ['all', 'react'],
     extlink: 'https://hotelbeach.netlify.app',
     img: beach,
     language: 'React js',
@@ -152,6 +180,8 @@ export default [
   },
   {
     id: 5,
+    category: 'javascript',
+    filtering: 'javascript',
     extlink: 'https://gigschool.netlify.app',
     img: school,
     language: 'HTML/CSS/JS',
@@ -159,6 +189,8 @@ export default [
   },
   {
     id: 6,
+    category: 'react',
+    filtering: 'react',
     extlink: '',
     img: porfolio,
     language: 'React Js',

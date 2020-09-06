@@ -14,6 +14,7 @@
   box-shadow: 1px 5px 10px black;
   /* background: rgba(250, 238, 253, 0.591); */
   background: rgba(216, 196, 221, 0.591);
+  /* min-width: 15vw; */
   max-width: 600px;
 }
 .side-center {

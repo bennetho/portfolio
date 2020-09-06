@@ -14,7 +14,7 @@ function Service() {
           <h4>web development</h4>
           <div className='underline'></div>
           <p>
-            clean, modern design - optimized for performance,search engines,with
+            Clean, modern design - optimized for performance,search engines,with
             all UX interaction,will make it all from scratch.
           </p>
         </article>
