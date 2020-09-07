@@ -24,7 +24,7 @@ function Hero() {
           >
             <h1>Hey,</h1>
             <h1>I'm Benneth</h1>
-            <h5>A web & mobile UI/UX frond-end Developer </h5>
+            <h5>A web & mobile UI/UX front-end Developer </h5>
           </Typist>
           {/* -----------------hide from small----------- */}
           <aside className='customize-screen'>
