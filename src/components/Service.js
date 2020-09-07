@@ -19,7 +19,7 @@ function Service() {
           </p>
         </article>
         <article className='service'>
-          <h4>web design</h4>
+          <h4>web design/management</h4>
           <div className='underline'></div>
           <p>
             Are you looking for a new design? i can help you develop a fitting
@@ -31,9 +31,9 @@ function Service() {
           <h4>Responsive & mobile friendly website</h4>
           <div className='underline'></div>
           <p>
-            All websites I create are responsive and work just as good on mobile
-            phone, tablet or on a computer. If your webpage is not responsive
-            today, I can help you solve it
+            A responsive website that work just as good on mobile phone, tablet
+            or on a computer. If your webpage is not responsive today, I can
+            help you solve it
           </p>
         </article>
       </div>
