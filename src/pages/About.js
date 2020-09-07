@@ -22,7 +22,7 @@ const About = () => {
             spent most of my time experimenting new things that will improve my
             skills as a front-end developer,I like to build new projects and
             also share what I've learned as a developer to other people. Outside
-            of coding I enjoy sports and listening to musics.
+            of coding I enjoy sports and listening to music.
           </p>
         </article>
       </div>
