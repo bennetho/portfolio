@@ -83,7 +83,7 @@ button {
 
   .container input,
   .container textarea {
-    padding: 9px;
+    padding: 9px !important;
   }
   .form-btn {
     margin-top: 1rem;
@@ -143,8 +143,8 @@ button {
   border: none;
 }
 
-.appointment-container {
-  max-width: 600px;
+.appointment-form {
+  /* max-width: 600px; */
   margin: auto;
 }
 

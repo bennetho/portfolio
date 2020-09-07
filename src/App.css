@@ -751,6 +751,9 @@ Projects
     background: rgb(250, 249, 249) !important;
     overflow: hidden;
   }
+  .project {
+    margin: 2rem;
+  }
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
@@ -772,7 +775,7 @@ Projects
   position: relative;
   background: var(--clr-primary-3);
   border-radius: var(--radius);
-  margin: 0.3rem;
+  /* margin: 0.3rem; */
   /* overflow-y: auto; */
 }
 .project-info {
@@ -822,8 +825,8 @@ Projects
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  /* justify-content: center;
-  align-items: center; */
+  justify-content: center;
+  align-items: center;
   place-items: center;
 }
 .project:hover .project-info {
@@ -841,22 +844,22 @@ Projects
   width: 300px;
 }
 
-@media only screen and (min-width: 200px) and (max-width: 400px) {
+@media only screen and (min-width: 200px) and (max-width: 450px) {
   .project-img {
     height: 230px;
     width: 300px;
   }
-  .project-info p {
+  .project-info h5 {
     margin-top: 7rem;
   }
 
   .project {
-    margin: 1rem 0;
+    margin: 1.7rem 0;
   }
   .project a {
     position: absolute;
     top: 40%;
-    left: 33%;
+    left: 33.5%;
   }
 }
 
@@ -929,6 +932,7 @@ Projects
   }
   .project {
     position: relative;
+    margin: 0.3rem;
   }
 }
 
@@ -950,6 +954,9 @@ Projects
 Skills
 ===============
 */
+.skills-center {
+  padding: 2rem 1.9rem;
+}
 @media screen and (min-width: 750px) {
   .skills-center {
     padding: 2rem 5rem;
@@ -1126,7 +1133,7 @@ code {
 
 @media only screen and (min-width: 661px) and (max-width: 749px) {
   .appointment-form {
-    max-width: 570px;
+    max-width: 300px;
     margin: auto;
   }
   .app {
@@ -1135,7 +1142,7 @@ code {
 }
 @media only screen and (min-width: 540px) and (max-width: 660px) {
   .appointment-form {
-    max-width: 500px;
+    max-width: 350px;
     margin: auto;
   }
   .app {
@@ -1156,7 +1163,7 @@ code {
 }
 @media only screen and (min-width: 400px) and (max-width: 469px) {
   .appointment-form {
-    max-width: 300px;
+    max-width: 270px;
     margin: auto;
     flex-direction: column;
     place-items: center;
@@ -1169,7 +1176,7 @@ code {
 }
 @media only screen and (min-width: 341px) and (max-width: 399px) {
   .appointment-form {
-    max-width: 270px;
+    max-width: 230px;
     margin: auto;
   }
   .app {
