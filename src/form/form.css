@@ -175,13 +175,13 @@ form {
 }
 
 @media only screen and (min-width: 200px) and (max-width: 750px) {
-  input[type='text'],
-  input[type='number'],
+  input[type='text']:focus,
+  input[type='number']:focus,
   textarea {
     font-size: 16px;
   }
-  input:focus,
-  textarea:focus {
+  input,
+  textarea {
     font-size: 16px;
   }
 }
