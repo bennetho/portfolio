@@ -94,11 +94,6 @@ button {
     padding: 1.2rem 12rem 0;
   }
 }
-@media screen and (min-width: 800px) {
-  .container form {
-    /* padding: 6rem 10rem; */
-  }
-}
 
 label {
   display: flex;
@@ -179,7 +174,11 @@ form {
   float: none;
 }
 
-@media only screen and (min-width: 451px) and (max-width: 750px) {
+@media only screen and (min-width: 200px) and (max-width: 750px) {
+  input,
+  textarea {
+    font-size: 16px;
+  }
 }
 
 @media only screen and (min-width: 200px) and (max-width: 450px) {
