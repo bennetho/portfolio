@@ -26,10 +26,10 @@
   box-sizing: border-box;
 }
 
-.container form {
+/* .container form {
   overflow: hidden;
   float: none;
-}
+} */
 
 input[type='number']::-webkit-inner-spin-button,
 input[type='number']::-webkit-outer-spin-button {
@@ -110,7 +110,7 @@ textarea {
   line-height: inherit;
   background: rgb(240, 233, 225);
   box-sizing: border-box;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 input,
 textarea ::before {
@@ -129,7 +129,7 @@ label,
 input,
 textarea:focus {
   border: none;
-  overflow: hidden;
+  /* overflow: hidden; */
   float: none;
   position: sticky;
 }
@@ -155,7 +155,7 @@ form {
   padding: 0.25rem;
   white-space: nowrap;
   box-sizing: border-box;
-  overflow: auto;
+  /* overflow: auto; */
 }
 
 .form-control {
@@ -168,7 +168,7 @@ form {
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   box-sizing: border-box;
-  overflow: auto;
+  /* overflow: auto; */
   box-sizing: border-box;
   object-fit: contain;
   float: none;
