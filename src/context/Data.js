@@ -1,41 +1,41 @@
-import beauty from '../images/beauty-1.jpg';
-import gym from '../images/gym-2.jpg';
-import onlinecloth from '../images/onlinecloth-3.jpg';
-import porfolio from '../images/portfolio-4.jpg';
-import school from '../images/school-5.jpg';
-import beach from '../images/beach-6.jpg';
-import alan from '../images/alan-7.jpg';
-import phone from '../images/phone-store-7.png';
+import beauty from "../images/beauty-1.jpg";
+import gym from "../images/gym-2.jpg";
+import onlinecloth from "../images/onlinecloth-3.jpg";
+import porfolio from "../images/portfolio-4.jpg";
+import school from "../images/school-5.jpg";
+import beach from "../images/beach-6.jpg";
+import alan from "../images/alan-7.jpg";
+import phone from "../images/phone-store-7.png";
 
 // for navbar
 
 let Links = [
   {
     id: 1,
-    link: 'Home',
-    path: '/',
-    scrolling: 'Home',
+    link: "Home",
+    path: "/",
+    scrolling: "Home",
   },
 
   {
     id: 2,
-    link: 'About',
-    path: '/about',
-    scrolling: 'About',
+    link: "About",
+    path: "/about",
+    scrolling: "About",
   },
 
   {
     id: 3,
-    link: 'Skills',
-    path: '/skills',
-    scrolling: 'Skills',
+    link: "Skills",
+    path: "/skills",
+    scrolling: "Skills",
   },
 
   {
     id: 4,
-    link: 'Projects',
-    path: '/projects',
-    scrolling: 'Projects',
+    link: "Projects",
+    path: "/projects",
+    scrolling: "Projects",
   },
 
   //   {
@@ -47,9 +47,9 @@ let Links = [
 
   {
     id: 6,
-    link: 'Contact',
-    path: '/contact',
-    scrolling: 'Contact',
+    link: "Contact",
+    path: "/contact",
+    scrolling: "Contact",
   },
 ];
 
@@ -58,39 +58,39 @@ let Links = [
 export const devSkills = [
   {
     id: 1,
-    title: 'HTML5',
-    percent: 'ninety',
-    number: '90%',
+    title: "HTML5",
+    percent: "ninety",
+    number: "90%",
   },
   {
     id: 2,
-    title: 'CSS3',
-    percent: 'ninety',
-    number: '90%',
+    title: "CSS3",
+    percent: "ninety",
+    number: "90%",
   },
   {
     id: 3,
-    title: 'JAVASCRIPT',
-    percent: 'eighty',
-    number: '80%',
+    title: "JAVASCRIPT",
+    percent: "eighty",
+    number: "80%",
   },
   {
     id: 4,
-    title: 'REACT',
-    percent: 'eighty',
-    number: '80%',
+    title: "REACT",
+    percent: "eighty",
+    number: "80%",
   },
   {
     id: 5,
-    title: 'BOOTSTRAP',
-    percent: 'fifty',
-    number: '50%',
+    title: "BOOTSTRAP",
+    percent: "fifty",
+    number: "50%",
   },
   {
     id: 6,
-    title: 'NODE JS',
-    percent: 'thirty',
-    number: '30%',
+    title: "NODE JS",
+    percent: "thirty",
+    number: "30%",
   },
 ];
 
@@ -98,27 +98,27 @@ export const devSkills = [
 export const electricSkills = [
   {
     id: 1,
-    title: 'ELECTRICAL STUDIES',
-    percent: 'ninety',
-    number: '90%',
+    title: "ELECTRICAL STUDIES",
+    percent: "ninety",
+    number: "90%",
   },
   {
     id: 2,
-    title: 'DOMESTIC INSTALLATIONS',
-    percent: 'ninety',
-    number: '90%',
+    title: "DOMESTIC INSTALLATIONS",
+    percent: "ninety",
+    number: "90%",
   },
   {
     id: 3,
-    title: 'PHOTOVOLTAIC SYSTEMS',
-    percent: 'ninety',
-    number: '90%',
+    title: "PHOTOVOLTAIC SYSTEMS",
+    percent: "ninety",
+    number: "90%",
   },
   {
     id: 4,
-    title: 'ELECTRICAL AUTOMOTIONS',
-    percent: 'eighty',
-    number: '80%',
+    title: "ELECTRICAL AUTOMOTIONS",
+    percent: "eighty",
+    number: "80%",
   },
 ];
 
@@ -126,74 +126,74 @@ export const electricSkills = [
 export default [
   {
     id: 7,
-    category: 'react',
-    filtering: ['all', 'react'],
-    extlink: 'https://alan-voice-reader.netlify.app',
+    category: "react",
+    filtering: ["all", "react"],
+    extlink: "https://alan-voice-reader.netlify.app",
     img: alan,
-    language: 'REACT JS',
-    title: 'news voice regonition',
+    language: "REACT/MATERIAL UI",
+    title: "news voice regonition",
   },
   {
     id: 8,
-    category: 'react',
-    filtering: ['all', 'react'],
-    extlink: 'https://pphone.netlify.app',
+    category: "react",
+    filtering: ["all", "react"],
+    extlink: "https://pphone.netlify.app",
     img: phone,
-    language: 'REACT JS/STRAPI',
-    title: 'phone store',
+    language: "REACT JS/ FULLSTACK",
+    title: "phone store",
   },
   {
     id: 1,
-    category: 'javascript',
-    filtering: ['all', 'javascript'],
-    extlink: 'https://nbeauty.netlify.com',
+    category: "javascript",
+    filtering: ["all", "javascript"],
+    extlink: "https://nbeauty.netlify.com",
     img: beauty,
-    language: 'HTML/CSS/JS',
-    title: 'beauty salon',
+    language: "HTML/CSS/JS",
+    title: "beauty salon",
   },
   {
     id: 2,
-    category: 'javascript',
-    filtering: 'javascript',
-    extlink: 'https://gym50.netlify.com',
+    category: "javascript",
+    filtering: "javascript",
+    extlink: "https://gym50.netlify.com",
     img: gym,
-    language: 'HTML/CSS/JS',
-    title: 'gym',
+    language: "HTML/CSS/JS",
+    title: "gym",
   },
   {
     id: 3,
-    category: 'javascript',
-    filtering: 'javascript',
-    extlink: 'https://onlinecloth.netlify.com',
+    category: "javascript",
+    filtering: "javascript",
+    extlink: "https://onlinecloth.netlify.com",
     img: onlinecloth,
-    language: 'javascript',
-    title: 'online shop',
+    language: "javascript",
+    title: "online shop",
   },
   {
     id: 4,
-    category: 'react',
-    filtering: ['all', 'react'],
-    extlink: 'https://hotelbeach.netlify.app',
+    category: "react",
+    filtering: ["all", "react"],
+    extlink: "https://hotelbeach.netlify.app",
     img: beach,
-    language: 'React js',
-    title: 'hotel resort',
+    language: "React js",
+    title: "hotel resort",
   },
   {
     id: 5,
-    category: 'javascript',
-    filtering: 'javascript',
-    extlink: 'https://gigschool.netlify.app',
+    category: "javascript",
+    filtering: "javascript",
+    extlink: "https://gigschool.netlify.app",
     img: school,
-    language: 'HTML/CSS/JS',
-    title: 'education',
+    language: "HTML/CSS/JS",
+    title: "education",
   },
   {
     id: 6,
-    category: 'react',
-    filtering: 'react',
-    extlink: '',
+    category: "react",
+    filtering: "react",
+    extlink: "",
     img: porfolio,
-    language: 'React Js',
-    title: 'Portfolio',
+    language: "React Js",
+    title: "Portfolio",
   },
 ];

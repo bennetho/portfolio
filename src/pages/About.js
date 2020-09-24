@@ -1,6 +1,6 @@
-import React, { useContext } from 'react';
-import pic from '../images/IMG_1175.JPG';
-import { PorfolioContext } from '../context/PorfolioContext';
+import React, { useContext } from "react";
+import pic from "../images/IMG_1175.JPG";
+import { PorfolioContext } from "../context/PorfolioContext";
 
 const About = () => {
   return (
@@ -18,7 +18,7 @@ const About = () => {
           {/* <h4>{title}</h4> */}
           <p>
             My name is Benneth Ossai, A front-end developer. I'm currently
-            living in Portimao, PT 🌴. i'm curious of learning new things so i
+            living in Portimao, PT 🌴. I'm curious of learning new things so i
             spent most of my time experimenting new things that will improve my
             skills as a front-end developer, I like to build new projects and
             also share what I've learned as a developer to other people. Outside
