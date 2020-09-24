@@ -810,7 +810,7 @@ Projects
 .project-info h5 {
   text-transform: uppercase;
   color: var(--clr-white);
-  margin-top: 10rem;
+  margin-top: 9rem;
 }
 .project a {
   text-transform: capitalize;
