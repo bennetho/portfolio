@@ -805,12 +805,13 @@ Projects
 .project-info h3 {
   text-transform: uppercase;
   padding-top: 1rem;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 .project-info h5 {
   text-transform: uppercase;
   color: var(--clr-white);
-  margin-top: 9rem;
+  margin-top: 10rem;
+  font-size: 0.6rem;
 }
 .project a {
   text-transform: capitalize;
