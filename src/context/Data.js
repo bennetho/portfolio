@@ -131,7 +131,7 @@ export default [
     extlink: "https://alan-voice-reader.netlify.app",
     img: alan,
     language: "REACT/MATERIAL UI",
-    title: "news voice regonition",
+    title: "news voice recognition",
   },
   {
     id: 8,
