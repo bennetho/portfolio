@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
-import { Link } from 'react-scroll';
-import logo from '../images/log-2.png';
-import { FaAlignRight } from 'react-icons/fa';
-import MoveAround from './MoveAround';
+import React, { useState } from "react";
+import { Link } from "react-scroll";
+import logo from "../images/log-2.png";
+import { FaAlignRight } from "react-icons/fa";
+import MoveAround from "./MoveAround";
 // import { Link } from 'react-scroll';
 
 const Navbar = () => {
@@ -20,12 +20,12 @@ const Navbar = () => {
             <Link to='/'>
               <img src={logo} alt='portfolio' />
             </Link>
-            {/* <span className='nav-btn' onClick={() => setIsOpen(!isOpen)}> */}
+
             <span className='nav-btn' onClick={handeleOpen}>
               <FaAlignRight className='nav-icon' />
             </span>
           </div>
-          <ul className={isOpen ? 'nav-links show-nav' : 'nav-links'}>
+          <ul className={isOpen ? "nav-links show-nav" : "nav-links"}>
             <li>
               <Link to='/'>Home</Link>
             </li>
@@ -62,9 +62,9 @@ const Navbar = () => {
                 contact
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link
-                to='skills'
+                to='skil'
                 smooth={true}
                 onClick={handeleOpen}
                 duration={2300}
@@ -72,7 +72,7 @@ const Navbar = () => {
               >
                 skills
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link
                 to='about'

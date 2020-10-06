@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import logo from '../images/log-2.png';
-import { FaAlignRight } from 'react-icons/fa';
-import MoveAround from './MoveAround';
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import logo from "../images/log-2.png";
+import { FaAlignRight } from "react-icons/fa";
+import MoveAround from "./MoveAround";
 
 const NavbarBig = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,7 +19,7 @@ const NavbarBig = () => {
               <FaAlignRight className='nav-icon' />
             </span>
           </div>
-          <ul className={isOpen ? 'nav-links show-nav' : 'nav-links'}>
+          <ul className={isOpen ? "nav-links show-nav" : "nav-links"}>
             <li>
               <Link to='/'>Home</Link>
             </li>
@@ -29,9 +29,9 @@ const NavbarBig = () => {
             <li>
               <Link to='/contact'>contact</Link>
             </li>
-            <li>
+            {/* <li>
               <Link to='/skill'>skills</Link>
-            </li>
+            </li> */}
             <li>
               <Link to='/service'>services</Link>
             </li>

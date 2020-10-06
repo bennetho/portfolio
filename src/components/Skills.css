@@ -3,20 +3,39 @@
 }
 @media screen and (min-width: 750px) {
   .skills-center {
-    padding: 1rem 5rem;
+    /* padding: 1rem 5rem;
     line-height: 1rem;
-    margin: auto;
+    margin: auto; */
+  }
+  .skil h2 {
+    font-size: 1.5rem;
+    letter-spacing: 0.3rem;
   }
 }
 
 .skill-c {
-  width: 300px;
-  /* margin: 0 50px; */
-  /* padding: 20px; */
+  /* width: 300px; */
   margin: auto;
 }
 
-@media screen and (min-width: 800px) {
+.skill-c {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+}
+.skill-c ul {
+  margin: 0 1rem;
+}
+.skill-c li {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif, Times, serif,
+    "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  word-spacing: 0.3rem;
+  line-height: 2rem;
+}
+
+/* @media screen and (min-width: 800px) {
   .skill-c {
     width: 400px;
   }
@@ -128,4 +147,4 @@
   to {
     width: 66%;
   }
-}
+} */

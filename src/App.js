@@ -1,16 +1,16 @@
-import React from 'react';
-import './App.css';
-import { Switch, Route, Redirect } from 'react-router-dom';
-import Media from 'react-media';
-import Home from './pages/Home';
-import Contact from './pages/Contact';
-import Project from './pages/Project';
-import Skill from './pages/Skill';
-import Navbar from './components/Navbar';
-import SideProfile from './components/SideProfile';
-import About from './pages/About';
-import NavbarBig from './components/NavbarBig';
-import Service from './components/Service';
+import React from "react";
+import "./App.css";
+import { Switch, Route, Redirect } from "react-router-dom";
+import Media from "react-media";
+import Home from "./pages/Home";
+import Contact from "./pages/Contact";
+import Project from "./pages/Project";
+// import Skill from './pages/Skill';
+import Navbar from "./components/Navbar";
+import SideProfile from "./components/SideProfile";
+import About from "./pages/About";
+import NavbarBig from "./components/NavbarBig";
+import Service from "./components/Service";
 
 function App() {
   return (
@@ -28,7 +28,7 @@ function App() {
                 <Route exact path='/project/' component={Project} />
                 <Route exact path='/service/' component={Service} />
                 <Route exact path='/about/' component={About} />
-                <Route exact path='/skill/' component={Skill} />
+                {/* <Route exact path='/skill/' component={Skill} /> */}
                 <Redirect to='/' />
               </Switch>
             ) : (

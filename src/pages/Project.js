@@ -1,6 +1,6 @@
-import React from 'react';
-import Filter from '../components/Filter';
-import PageProject from '../components/PageProject';
+import React from "react";
+import Filter from "../components/Filter";
+import PageProject from "../components/PageProject";
 
 const Project = () => {
   return (

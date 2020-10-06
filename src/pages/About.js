@@ -1,6 +1,6 @@
-import React, { useContext } from "react";
+import React from "react";
+import Skills from "../components/Skills";
 import pic from "../images/IMG_1175.JPG";
-import { PorfolioContext } from "../context/PorfolioContext";
 
 const About = () => {
   return (
@@ -15,7 +15,6 @@ const About = () => {
             <div className='underline'></div>
           </div>
 
-          {/* <h4>{title}</h4> */}
           <p>
             My name is Benneth Ossai, A front-end developer. I'm currently
             living in Portimao, PT 🌴. I'm curious of learning new things so i
@@ -24,6 +23,9 @@ const About = () => {
             also share what I've learned as a developer to other people. Outside
             of coding I enjoy sports and listening to music.
           </p>
+          <div className='customize-screen'>
+            <Skills />
+          </div>
         </article>
       </div>
     </section>

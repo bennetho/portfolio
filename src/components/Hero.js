@@ -1,13 +1,13 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import pic from '../images/IMG_1175.JPG';
-import AnchorLink from 'react-anchor-link-smooth-scroll';
-import Typist from 'react-typist';
+import React from "react";
+import { Link } from "react-router-dom";
+import pic from "../images/IMG_1175.JPG";
+import AnchorLink from "react-anchor-link-smooth-scroll";
+import Typist from "react-typist";
 import {
   FaFacebookMessenger,
   FaLinkedin,
   FaFacebookSquare,
-} from 'react-icons/fa';
+} from "react-icons/fa";
 
 function Hero() {
   return (
@@ -20,11 +20,11 @@ function Hero() {
           <Typist
             avgTypingDelay={170}
             startDelay={1000}
-            cursor={{ element: '' }}
+            cursor={{ element: "" }}
           >
             <h1>Hey,</h1>
             <h1>I'm Benneth</h1>
-            <h5>A web & mobile UI/UX front-end Developer </h5>
+            <h5>A web UI/UX front-end Developer </h5>
           </Typist>
           {/* -----------------hide from small----------- */}
           <aside className='customize-screen'>

@@ -1,10 +1,10 @@
 // import React, { Component } from 'react';
 // import React, { useState } from 'react';
-import '../pages/Contact.css';
+import "../pages/Contact.css";
 // import { useForm } from 'react-hook-form';
 
-import React, { useState } from 'react';
-import Form from '../form/Form';
+import React from "react";
+import Form from "../form/Form";
 // import './Cont2.css';
 
 const Contact = () => {
