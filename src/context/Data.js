@@ -137,7 +137,7 @@ export default [
     id: 8,
     category: "react",
     filtering: ["all", "react"],
-    extlink: "https://pphone.netlify.app",
+    extlink: "https://phone-store.vercel.app/",
     img: phone,
     language: "REACT JS/ FULLSTACK",
     title: "phone store",
