@@ -931,6 +931,7 @@ Projects
     grid-template-columns: 1fr 1fr;
     padding: 0.6rem;
     overflow-y: auto;
+    height: 93%;
   }
 
   /* @supports (display: grid) {
@@ -1156,7 +1157,7 @@ code {
   place-items: center;
   position: absolute;
   left: 39%;
-  bottom: -0.6rem;
+  bottom: 0.3rem;
 }
 
 .page-btn,
@@ -1167,7 +1168,7 @@ code {
   cursor: pointer;
   background: transparent;
   transition: var(--transition);
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: var(--clr-primary-5);
   border: none;
 }
@@ -1183,7 +1184,7 @@ code {
 .next-page-btn {
   border: none;
   color: var(--clr-primary-5);
-  font-size: 1rem;
+  font-size: 1.2rem;
   display: flex;
   align-items: center;
   transition: var(--transition);
