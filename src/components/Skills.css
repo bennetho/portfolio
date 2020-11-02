@@ -8,7 +8,7 @@
     margin: auto; */
   }
   .skil h2 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     letter-spacing: 0.3rem;
   }
 }
@@ -21,7 +21,7 @@
 .skill-c {
   display: flex;
   justify-content: space-around;
-  padding: 1rem;
+  /* padding: 1rem; */
 }
 .skill-c ul {
   margin: 0 1rem;
@@ -31,8 +31,8 @@
   text-transform: uppercase;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif, Times, serif,
     "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-  word-spacing: 0.3rem;
-  line-height: 2rem;
+  word-spacing: 0.2rem;
+  line-height: 1.3rem;
 }
 
 /* @media screen and (min-width: 800px) {

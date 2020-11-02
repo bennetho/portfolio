@@ -14,12 +14,15 @@ function Skills() {
         <div className='skill-c'>
           <ul>
             <li className='react'>React js</li>
+            <li className='react'>Vue js</li>
             <li className='js'>JavaScript</li>
+            <li className='js'>Node - express</li>
             <li className='mern'>mern stack</li>
-            <li className='api'>RESTUL API</li>
           </ul>
 
           <ul>
+            <li className='api'>RESTUL API</li>
+            <li className='api'>Nosql database</li>
             <li className='tailwind'>tailwind css</li>
             <li className='css'>CSS</li>
             <li className='html'>HTML</li>
