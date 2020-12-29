@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Footer = () => {
   return (
@@ -32,7 +32,8 @@ const Footer = () => {
       </ul> */}
 
       <p>
-        &copy; <span id='date'>2020</span> Bendigo. all rights reserved
+        &copy; <span id='date'>{new Date().getFullYear()}</span> Bendigo. All
+        rights reserved
       </p>
     </footer>
   );
