@@ -6,6 +6,7 @@ import school from "../images/school-5.jpg";
 import beach from "../images/beach-6.jpg";
 import alan from "../images/alan-7.jpg";
 import phone from "../images/phone-store-7.png";
+import comfy from "../images/comfy-8.png";
 
 // for navbar
 
@@ -129,7 +130,7 @@ export default [
     category: "react",
     filtering: ["all", "react"],
     extlink: "https://comfyy.netlify.app",
-    img: alan,
+    img: comfy,
     language: "REACT/UI COMPONENT",
     title: "React ecommerce",
   },
