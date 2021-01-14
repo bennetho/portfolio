@@ -128,7 +128,7 @@ export default [
     id: 8,
     category: "react",
     filtering: ["all", "react"],
-    extlink: "https://alan-voice-reader.netlify.app",
+    extlink: "https://comfyy.netlify.app",
     img: alan,
     language: "REACT/UI COMPONENT",
     title: "React ecommerce",
