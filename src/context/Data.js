@@ -3,7 +3,7 @@ import gym from "../images/gym-2.jpg";
 import onlinecloth from "../images/onlinecloth-3.jpg";
 import porfolio from "../images/portfolio-4.jpg";
 import school from "../images/school-5.jpg";
-// import beach from "../images/beach-6.jpg";
+import beach from "../images/beach-6.jpg";
 import alan from "../images/alan-7.jpg";
 import phone from "../images/phone-store-7.png";
 import comfy from "../images/comfy-8.png";
