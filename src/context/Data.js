@@ -126,7 +126,7 @@ export const electricSkills = [
 // projects
 export default [
   {
-    id: 8,
+    id: 9,
     category: "react",
     filtering: ["all", "react"],
     extlink: "https://comfyy.netlify.app",
@@ -179,15 +179,15 @@ export default [
     language: "javascript",
     title: "online shop",
   },
-  // {
-  //   id: 4,
-  //   category: "react",
-  //   filtering: ["all", "react"],
-  //   extlink: "https://hotelbeach.netlify.app",
-  //   img: beach,
-  //   language: "React js",
-  //   title: "hotel resort",
-  // },
+  {
+    id: 4,
+    category: "react",
+    filtering: ["all", "react"],
+    extlink: "https://hotelbeach.netlify.app",
+    img: beach,
+    language: "React js",
+    title: "hotel resort",
+  },
   {
     id: 5,
     category: "javascript",
