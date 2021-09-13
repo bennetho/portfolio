@@ -48,7 +48,7 @@ function SideProfile() {
           <p className='map'>
             <FaMapMarkerAlt />
           </p>
-          <h5>&copy; 2020 copy right</h5>
+          <h5>&copy; {new Date().getFullYear()} copy right</h5>
         </div>
       </div>
     </section>
